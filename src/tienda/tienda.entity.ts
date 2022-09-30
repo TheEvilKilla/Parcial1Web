@@ -8,7 +8,7 @@ import { CafeEntity } from '../cafe/cafe.entity';
 @Entity()
 export class TiendaEntity {
     @PrimaryGeneratedColumn('uuid')
-    id: Long;
+    id: string;
 
     @Column()
     nombre: string;
